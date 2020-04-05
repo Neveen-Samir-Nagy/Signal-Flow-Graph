@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="243.0" prefWidth="692.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graph.ControllerGuiGraph">
+   <children>
+    <TitledPane animated="false" layoutX="-27.0" layoutY="-99.0" prefHeight="0.0" prefWidth="719.0" text="untitled 1" />
+      <TextField fx:id="signal" alignment="CENTER" layoutX="54.0" layoutY="20.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="60.0" prefWidth="584.0" text="Signal Flow Graph">
+         <font>
+            <Font name="Arial Black" size="45.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nodes" layoutX="307.0" layoutY="146.0" onAction="#setNumOfNodes" prefHeight="49.0" prefWidth="297.0" promptText="NumberOFNodes">
+         <font>
+            <Font name="Blackadder ITC" size="21.0" />
+         </font>
+      </TextField>
+      <Label fx:id="enter" layoutX="63.0" layoutY="149.0" prefHeight="49.0" prefWidth="227.0" text="Enter Number Of Nodes :">
+         <font>
+            <Font name="Bauhaus 93" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="contin" layoutX="641.0" layoutY="198.0" mnemonicParsing="false" onAction="#continuebefore" prefHeight="32.0" prefWidth="37.0" style="-fx-background-radius: 500;" text="C">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
